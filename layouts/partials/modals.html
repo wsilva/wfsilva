@@ -1,0 +1,57 @@
+{{ "<!-- Talks Modals -->" | safeHTML }}
+{{ range .Site.Data.talks }}
+<div class="talks-modal modal fade" id="talksModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>{{ .title }}</h2>
+                        <hr class="star-primary">
+                        <h3>{{ with $.Site.Params.talks.modal.description }}{{.}}{{ end }}</h3>
+                        <p>{{ .description | markdownify }}</p>
+                        <ul class="list-inline item-details">
+                            <li>{{ with $.Site.Params.talks.modal.event }}{{.}}{{ end }}:
+                                <strong><a href="{{ .eventLink }}" target="_blank">{{ .eventName }}</a>
+                                    </strong>
+                            </li>
+                            <li>{{ with $.Site.Params.talks.modal.date }}{{.}}{{ end }}:
+                                <strong><a href="{{ .eventLink }}" target="_blank">{{ .date }}</a>
+                                    </strong>
+                            </li>
+                            <li>{{ with $.Site.Params.talks.modal.feedback }}{{.}}{{ end }}:
+                                <strong><a href="{{ .feedbackLink }}" target="_blank">{{ .feedback }}</a>
+                                    </strong>
+                            </li>
+                        </ul>
+                        
+                        {{ with .speakDeckId }}
+                        <h3>{{ $.Site.Params.talks.modal.slides }}</h3>
+                        <a class="embedly-card" href="https://speakerdeck.com/wsilva/{{ . }}">Slides</a>
+                        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+                        {{ end }}
+                        
+                        {{ with .videoEmbedId }}
+                        <h3>{{ $.Site.Params.talks.modal.video }}</h3>
+                        <div class="videoWrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ . }}" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        {{ end }}
+
+                        <!-- <h3>Fotos</h3>
+                        <img src="img/talks/{{ .img }}" class="img-responsive img-centered" alt=""> -->
+
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.talks.modal.buttonText }}{{.}}{{ end }}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,31 @@
+<section class="bg-dark" id="talks">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.talks.headline }}{{ . }}{{ end }}</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            {{ range sort .Site.Data.talks "modalID" "desc" }}
+            <div class="col-lg-4 col-sm-6">
+                <a href="#talksModal{{ .modalID }}" class="talks-box talks-link" data-toggle="modal">
+                    <img src="img/talks/{{ .img }}" class="img-responsive" alt="">
+                    <div class="talks-box-caption">
+                        <div class="talks-box-caption-content">
+                            <div class="talk-event text-faded">
+                                {{ .eventName }}
+                            </div>
+                            <div class="talk-title">
+                                {{ .title }}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

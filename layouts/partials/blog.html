@@ -1,0 +1,15 @@
+{{ "<!-- Blog -->" | safeHTML }}
+<section class="bg-light" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.blog.headline }}{{ . }}{{ end }}</h2>
+                <hr class="primary">
+                <p>{{ with .Site.Params.blog.description }}{{ . | markdownify }}{{ end }}</p>
+                <a href="{{ with .Site.Params.blog.buttonBackLink }}{{ . }}{{ end }}" class="btn btn-primary btn-xl">{{ with .Site.Params.blog.buttonBackText }}{{ . }}{{ end }}</a>
+                
+                <a href="{{ with .Site.Params.blog.buttonGoLink }}{{ . }}{{ end }}" class="btn btn-primary btn-xl">{{ with .Site.Params.blog.buttonGoText }}{{ . }}{{ end }}</a>
+            </div>
+        </div>
+    </div>
+</section>

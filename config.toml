@@ -1,0 +1,114 @@
+baseurl = "http://wfsilva.com/"
+languageCode = "pt-br"
+title = "Wellington F. Silva"
+theme = "hugo-creative-theme"
+
+RemovePathAccents = true
+
+googleAnalytics = "UA-36355678-3"
+
+[params]
+
+    # You can use Markdown syntax for urls [text](//url.to/source) for
+    # most longer texts.
+
+    # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+    # for more icons. The icons are represented by their corresponding
+    # CSS class.
+
+    # All projects of the talks are defined in their own files.
+    # You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+    # folder into the 'data' directory at the root of this Hugo site.
+    # For more informtion take a look at the README.
+
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "Wellington F. Silva"
+    description = "Web Site Pessoal"
+
+    # The path must be relative to the static folder
+    favicon = "img/favicon.png"
+
+    # Navigation
+    [params.navigation]
+        brand = "wfsilva.com"
+
+        [params.navigation.links]
+            blog        = "Blog"
+            about       = "Sobre"
+            books       = "Livros"
+            talks       = "Palestras"
+            contact     = "Contato"
+
+    # Hero section
+    [params.hero]
+        # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+        slogan          = "Wellington F. Silva"
+        subtitle        = "Página pessoal de Wellington F. Silva, também conhecido como Tom, wsilva, Fisi e Boina."
+        buttonText      = "Saiba mais"
+        buttonLink      = "#about"
+
+    # Blog
+    [params.blog]
+        headline        = "Blog"
+        description     = "O blog pessoal [Dumps Cerebrais](//dumpscerebrais.com) com conteúdo em sua maior parte de artigos técnicos é mantido desde 2012 e já esteve hospedado em eu outras urls como *wfigsilva.blogspot.com.br* e *dumpscerebrais.com.br*"
+        buttonBackText  = "Voltar"
+        buttonBackLink  = "#page-top"
+        buttonGoText    = "Acessar"
+        buttonGoLink    = "https://dumpscerebrais.com"
+
+    # Sobre
+    [params.about]
+        headline        = "Sobre"
+        description     = "Técnico em telecom diplomado pelo SENAI com registro no CREA-SP. Conhecido como Boina, Tom e Wsilva entre outros apelidos. Possui certificações [Docker Certified Associate](//credentials.docker.com/fpixbfgp) e [ZCE PHP 5.3](//www.zend.com/en/yellow-pages/ZEND018509), autor do livro Aprendendo Docker, do básico à orquestração de contêineres publicado pela editora Novatec. Docker community leader em São Paulo, tem background em telecomunicaçõeses, programação, VoIP, Linux e infraestrutura.. Mais informações profissionais ou sobre o currículo disponíveis no [Linked In](//www.linkedin.com/in/wfsilva/) <i class=\"fa fa-linkedin-square\"></i>."
+        buttonText      = "Voltar"
+        buttonLink      = "#page-top"
+
+
+    # Service section
+    [params.books]
+        headline        = "Livros"
+        buttonBackText  = "Voltar"
+
+        [[params.books.list]]
+            img         = "capa-aprendendo-docker.png"
+            title       = "Aprendendo Docker - Do básico à orquestração de contêineres"
+            url         = "http://aprendendodocker.com.br"
+            description = "Livro publicado pela editora Novatec em 2016 que permite aprender Docker desde o básico. Os tópicos sobre orquestração de contêineres proporcionarão o conhecimento sobre as ferramentas Compose, Machine e Swarm e possibilitarão planejar a utilização do Docker em produção."
+
+    # Talks modals
+    [params.talks]
+        headline        = "Palestras"
+
+    [params.talks.modal]
+        title           = "Titulo"
+        date            = "Data"
+        description     = "Descrição"
+        feedback        = "Feedback"
+        slides          = "Slides"
+        video           = "Video"
+        event           = "Evento"
+        buttonText      = "Fechar"
+        # client          = "Client"
+        # date            = "Date"
+        # category        = "Category"
+        # buttonText      = "Close"
+
+    # Aside section
+    [params.aside]
+        headline = "Get the Creative Theme for Hugo"
+
+        [params.aside.button]
+            text = "Download now"
+            link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+    # Contact section
+    [params.contact]
+        headline    = "Contato"
+        description = "Alguns dos lugares onde pode me encontrar."
+        facebook    = "silva.tom"
+        twitter     = "_wsilva"
+        linkedin    = "wfsilva"
+        instagram   = "_wsilva"
+        googleplus  = "+WellingtonFigueiraSilva"
+        email       = "wsilva em usp.br"
