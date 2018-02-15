@@ -1,7 +1,7 @@
 modalID: 7
 title: PHPTalks - Container vs Virtual Machine
 date: 22 de março de 2016
-img: php-experience-2016.jpg
+img: php-experience-2016.jpg # resize with: sips -z 350 650 filename.jpg
 eventName: PHP Experience 2016
 eventLink: "http://phpexperience2016.imasters.com.br/"
 description: Entrevista guiada com o objetivo de comparar virtualização e conteinerização mostrando vantagens e desvantagens de cada uma para uso em projetos PHP. Entrevistador foi um dos grandes nomes do Desenvovimento e do Empreendedorismo no Brasil, Elton Minetto.

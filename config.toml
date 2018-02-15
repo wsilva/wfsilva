@@ -1,4 +1,4 @@
-baseurl = "http://wfsilva.com/"
+baseurl = "/"
 languageCode = "pt-br"
 title = "Wellington F. Silva"
 theme = "hugo-creative-theme"

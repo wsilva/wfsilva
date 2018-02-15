@@ -1,7 +1,7 @@
 modalID: 8
 title: Contêineres e VMs no mundo dos E-commerces 
 date: 7 de junho de 2016
-img: devcommerce-2016.jpg
+img: devcommerce-2016.jpg # resize with: sips -z 350 650 filename.jpg
 eventName: DevCommerce 2016
 eventLink: "http://devcommerce2016.imasters.com.br/"
 description: Palestra que mostrou como utilizar cada tecnologia para a infraestrutura de seu E-commerce, seja em ambiente de desenvolvimento ou de produção.

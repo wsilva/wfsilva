@@ -1,7 +1,7 @@
 modalID: 3
 title: Vagrant vs Docker? Melhor Vagrant + Docker
 date: 06 de julho de 2015
-img: 2-meetup-vagrant-sp.jpg
+img: 2-meetup-vagrant-sp.jpg # resize with: sips -z 350 650 filename.jpg
 eventName: 2º Meetup de Vagrant em São Paulo
 eventLink: "https://www.meetup.com/Vagrant-Sao-Paulo/events/223414777/"
 description: Palestra ministrada com o intuito de mostrar que as duas ferramentas podem até competir em alguns poucos aspectos. Mas de uma maneira geral são ferramentas diferentes com propósitos diferentes e que combinadas são aproveitadas de uma maneira melhor.

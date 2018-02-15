@@ -1,12 +1,12 @@
 modalID: 12
 title: Do monolito aos microserviços com Docker
 date: 20 de agosto de 2016
-img: phpsp-ima-wsilva-docker-monolito-microservice.jpg
+img: phpsp-ima-wsilva-docker-monolito-microservice.jpg # resize with: sips -z 350 650 filename.jpg
 eventName: PHPSP+IMA
 eventLink: "https://credencial.imasters.com.br/phpspima"
-description: Palestra ministrada no 7º Meetup de Docker em São Paulo do dia 09/08/2016. Também rolou demos de contêineres com direito a comandos "dockerizados", orquestração de contêineres, aplicações gui, e até minecraft para gerenciar contêineres. 
-feedbackLink: 
-feedback: 
+description: Palestra ministrada no PHPSP+IMA em Campinas-SP em 20/08/2016. Abordamos como sair do monolito e ir para o microserviço conforme sua aplicação cresce e simulamos isso com containers Docker. 
+feedbackLink: https://joind.in/talk/18bb6
+feedback: joind.in
 speakDeckId: do-monolito-aos-microservicos-com-docker-phpsp-plus-ima
 videoEmbedId: IyDBp_gJf1U
 

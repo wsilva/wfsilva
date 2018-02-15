@@ -1,7 +1,7 @@
 modalID: 2
 title: GNU / Linux O exemplo de software livre
 date: 06 de julho de 2015
-img: workshop-linux-each-usp.jpg
+img: workshop-linux-each-usp.jpg # resize with: sips -z 350 650 filename.jpg
 eventName: Workshop Linux no contexto de software livre
 eventLink: "https://www.facebook.com/events/1420153374975364/"
 description: Palestra sobre Gnu/Linux num contexto de software livre ministrado na EACH (Escola de Artes Ciências e Humanidades) - USP (Universidade de São Paulo)

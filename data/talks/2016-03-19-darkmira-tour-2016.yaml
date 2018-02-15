@@ -1,7 +1,7 @@
 modalID: 6
 title: Aplicações 12 fatores, melhor com Docker
 date: 19 de março de 2016
-img: darkmira-tour-2016.jpg
+img: darkmira-tour-2016.jpg # resize with: sips -z 350 650 filename.jpg
 eventName: Darkmira Tour 2016
 eventLink: "https://br.darkmiratour.com/"
 description: Palestra que abordou os 12 fatores e mostrou a aderência do Docker em cada um dos fatores.

@@ -1,7 +1,7 @@
 modalID: 10
 title: O Poder do Docker
 date: 29 de julho de 2016
-img: 7masters.jpg
+img: 7masters.jpg # resize with: sips -z 350 650 filename.jpg
 eventName: 7 Masters edição Devops
 eventLink: "http://setemasters.imasters.com.br/edicoes/devops/"
 description: Mini palestra e demo ministrada no 7 Masters do dia 28/07/2016, edição sobre devops. Também rolou demos de contêineres com direito a orquestração, aplicações gui, e até minecraft para gerenciar contêineres. 
