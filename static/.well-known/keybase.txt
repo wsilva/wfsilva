@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/wsilva
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://wfsilva.com
+  * I am wsilva (https://keybase.io/wsilva) on keybase.
+  * I have a public key ASC-7s9gE_9CWiMM8Qex0q9QbwXuWyyhofAdICwpc5s1owo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012010dc49120e1f11452d73ef18b5989a53cc8c3a3622030e915216df5c53c900430a",
+      "host": "keybase.io",
+      "kid": "0120beeecf6013ff425a230cf107b1d2af506f05ee5b2ca1a1f01d202c29739b35a30a",
+      "uid": "de8062088f85a62dfdebe8591c44c619",
+      "username": "wsilva"
+    },
+    "merkle_root": {
+      "ctime": 1518745795,
+      "hash": "e2498bfc6290e9697992d8040cc81efa8e4d51c933dc91998a8a9f63b0938f3088363ef04f7d3fc8077deec0a5197b6885302ca42fa43c1c0366e502d0c83b61",
+      "hash_meta": "c4be76a78d85380516868ef06204029ef98b1e30de3afdb7b61bb03366265401",
+      "seqno": 2090395
+    },
+    "service": {
+      "hostname": "wfsilva.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.40"
+  },
+  "ctime": 1518745815,
+  "expire_in": 504576000,
+  "prev": "0c30b0a1d8b32e8b946045f6bf4caf6f3a78c0404e2434ddee640660b9483371",
+  "seqno": 67,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvu7PYBP/QlojDPEHsdKvUG8F7lssoaHwHSAsKXObNaMKp3BheWxvYWTFA0J7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMTBkYzQ5MTIwZTFmMTE0NTJkNzNlZjE4YjU5ODlhNTNjYzhjM2EzNjIyMDMwZTkxNTIxNmRmNWM1M2M5MDA0MzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmVlZWNmNjAxM2ZmNDI1YTIzMGNmMTA3YjFkMmFmNTA2ZjA1ZWU1YjJjYTFhMWYwMWQyMDJjMjk3MzliMzVhMzBhIiwidWlkIjoiZGU4MDYyMDg4Zjg1YTYyZGZkZWJlODU5MWM0NGM2MTkiLCJ1c2VybmFtZSI6IndzaWx2YSJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxODc0NTc5NSwiaGFzaCI6ImUyNDk4YmZjNjI5MGU5Njk3OTkyZDgwNDBjYzgxZWZhOGU0ZDUxYzkzM2RjOTE5OThhOGE5ZjYzYjA5MzhmMzA4ODM2M2VmMDRmN2QzZmM4MDc3ZGVlYzBhNTE5N2I2ODg1MzAyY2E0MmZhNDNjMWMwMzY2ZTUwMmQwYzgzYjYxIiwiaGFzaF9tZXRhIjoiYzRiZTc2YTc4ZDg1MzgwNTE2ODY4ZWYwNjIwNDAyOWVmOThiMWUzMGRlM2FmZGI3YjYxYmIwMzM2NjI2NTQwMSIsInNlcW5vIjoyMDkwMzk1fSwic2VydmljZSI6eyJob3N0bmFtZSI6Indmc2lsdmEuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuNDAifSwiY3RpbWUiOjE1MTg3NDU4MTUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiMGMzMGIwYTFkOGIzMmU4Yjk0NjA0NWY2YmY0Y2FmNmYzYTc4YzA0MDRlMjQzNGRkZWU2NDA2NjBiOTQ4MzM3MSIsInNlcW5vIjo2NywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEC9L+5BTf9ZGlIs9E8CV7NaBTuAO8jw0KPv23rshAPT4In+evnq295QmS2acjQ93WfQTgo2mDDSl/Alftv3kUgMqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgjefN+oiJVljT52TMko95ClzBG+v+GxOpiJeip+/RDFKjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wsilva
+
+==================================================================
